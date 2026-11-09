@@ -6,7 +6,7 @@ Motus Football Analytics is an independent, open-source football analytics platf
 
 | Area | Current status | Direction |
 | --- | --- | --- |
-| User interface | No React application in this repository | Planned React and TypeScript frontend with team selection |
+| User interface | React and TypeScript workspace under `apps/web/`; Overview and Data Sources routes, static Brentford context, and no live data connection | Genuine team switching, additional clubs, and data-backed analytical views are planned |
 | API | No FastAPI application in this repository | Proposed Python and FastAPI backend |
 | Data storage | Historical PostgreSQL landing database and Snowflake warehouse configuration | Planned PostgreSQL warehouse with Bronze, Silver, and Gold schemas |
 | Transformation | Historical dbt project targeting Snowflake | Planned dbt transformations for the PostgreSQL warehouse |

@@ -10,12 +10,13 @@ This public project has its own codebase and roadmap, separate from the commerci
 | --- | --- |
 | Implemented in the original project | Legacy Python scraping and ETL code, Airflow DAGs, dbt models, and configuration files are present. Their current operational status has not been verified. |
 | Historical | The original Brentford Data Engineering Zoomcamp work uses PostgreSQL as a landing database, Snowflake as a warehouse, and Power BI for reporting. It remains for context during the redesign. Historical datasets are not published or redistributed here. |
-| Planned | A React and TypeScript frontend with team selection; a PostgreSQL warehouse with Bronze, Silver, and Gold schemas; redesigned dbt transformations and Airflow orchestration. A Python and FastAPI backend is proposed. GitHub Actions validation is planned as components are added. |
+| Implemented in the new frontend | A React and TypeScript workspace under [`apps/web/`](apps/web/README.md), with Motus branding, static Brentford team context, Overview and Data Sources routes, honest empty states, component tests, and frontend GitHub Actions checks. It has no live football data connection. |
+| Planned | Additional clubs; a PostgreSQL warehouse with Bronze, Silver, and Gold schemas; redesigned dbt transformations and Airflow orchestration. A Python and FastAPI backend is proposed. |
 
-The new React platform, FastAPI backend, PostgreSQL warehouse, and redesigned automated pipelines **have not been implemented or validated**. Existing files should not be read as instructions for running the future platform.
+The new frontend is an interface foundation, not an operational analytics platform. The FastAPI backend, PostgreSQL warehouse, and redesigned automated pipelines **have not been implemented or validated**. Existing legacy files should not be read as instructions for running the future platform.
 
 ## Development
 
-Work is being prepared in phases. See the [architecture overview](docs/architecture/overview.md), [product and repository decision](docs/decisions/0001-product-and-repository.md), [technology direction](docs/decisions/0002-technology-direction.md), and [development workflow](docs/development/workflow.md).
+To run and test the frontend, see the [web application guide](apps/web/README.md). For project decisions, see the [architecture overview](docs/architecture/overview.md), [product and repository decision](docs/decisions/0001-product-and-repository.md), [technology direction](docs/decisions/0002-technology-direction.md), [interface direction](docs/decisions/0003-instrument-panel-interface.md), and [development workflow](docs/development/workflow.md). The [resources and attribution record](docs/development/resources-and-attribution.md) distinguishes installed dependencies from research references.
 
 The [data dictionary](data_dictionary.md) and [original architecture diagram](architecture_diagram.png) describe the historical Brentford project.
