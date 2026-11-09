@@ -39,8 +39,12 @@ GitHub Actions is configured to run these checks on `dev` pushes and pull reques
 
 ## Brand, fonts, and notices
 
+Original frontend source is covered by the repository's [Apache-2.0 license](../../LICENSE). The Motus name and the three SVGs in `public/` have separate [brand-use terms](../../BRANDING.md); the software license does not relicense them.
+
 The approved Motus SVGs in `public/` are unchanged copies from the Motus marketing repository (`motus/public/logo.svg`, `logo-icon.svg`, and `favicon.svg`). Production color values in `src/styles/tokens.css` follow `motus/src/styles/tokens.css`. The header mark has a short reveal on initial mount without delaying rendering; the header persists across route changes, and reduced-motion mode removes the animation.
 
 Sora, Hanken Grotesk, and JetBrains Mono are bundled from pinned Fontsource variable-font packages under SIL Open Font License 1.1. Their exact package versions and source details appear in [third-party notices](THIRD_PARTY_NOTICES.md); license texts are included in `public/licenses/`. No private Motus font binaries or application code were copied.
+
+The production build generates `dist/licenses/third-party-frontend.md` with notices for bundled npm code. The three font-license files are copied to `dist/licenses/` alongside it. Preserve these notices when deploying or redistributing the build.
 
 A Brentford crest is intentionally absent. Public-use and redistribution rights for a specific crest file remain unverified. Motus Football Analytics is not affiliated with or endorsed by Brentford FC.

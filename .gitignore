@@ -20,3 +20,4 @@ secrets.toml
 **/.vscode/
 **/BI/
 **/Logos/
+.archive/

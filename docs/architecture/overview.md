@@ -11,7 +11,7 @@ Motus Football Analytics is an independent, open-source football analytics platf
 | Data storage | Historical PostgreSQL landing database and Snowflake warehouse configuration | Planned PostgreSQL warehouse with Bronze, Silver, and Gold schemas |
 | Transformation | Historical dbt project targeting Snowflake | Planned dbt transformations for the PostgreSQL warehouse |
 | Orchestration | Historical Airflow DAGs | Planned Airflow orchestration for redesigned pipelines |
-| Reporting | Historical Power BI work and screenshots | Planned platform reporting; presentation details remain open |
+| Reporting | Historical Power BI work; dashboard screenshots are no longer in the current public tree | Planned platform reporting; presentation details remain open |
 
 The legacy scraper, ETL code, dbt models, DAGs, and documentation remain as historical project material. Their presence does not establish that the redesigned platform or its pipelines run today. Historical datasets are not published or redistributed as part of this transition.
 

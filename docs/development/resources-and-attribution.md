@@ -19,7 +19,22 @@ Other direct testing, linting, React type, and Vite plugin packages and their ex
 
 ## Bundled assets
 
-The Motus `logo.svg`, `logo-icon.svg`, and `favicon.svg` were copied unchanged from the approved Motus marketing repository with the co-founders' brand-use approval. They are first-party brand assets, not third-party component code. Fontsource WOFF2 files are bundled through npm; the three family-specific OFL license texts are copied unchanged from the installed packages to `apps/web/public/licenses/`. No Brentford crest, external UI component, private image, or historical dataset is bundled.
+The Motus `logo.svg`, `logo-icon.svg`, and `favicon.svg` were copied unchanged from the approved Motus marketing repository with the co-founders' brand-use approval. They are first-party brand assets under the repository's [separate brand terms](../../BRANDING.md), not third-party component code. Fontsource WOFF2 files are bundled through npm; the three family-specific OFL license texts are copied unchanged from the installed packages to `apps/web/public/licenses/`. The production build generates a separate bundled-code notice as described in the [frontend third-party notices](../../apps/web/THIRD_PARTY_NOTICES.md). No Brentford crest, external UI component, private image, or historical dataset is bundled **in the frontend**.
+
+## Historical images
+
+The six original project images below have been removed from the current public tree and copied unchanged to a Git-ignored local archive. They are **excluded from the Apache-2.0 software grant**. The local archive will not be pushed to GitHub; the owner should keep an independent private backup. Removal from the current tree does not erase the files from Git history or establish permission to redistribute their third-party elements.
+
+| File | Observed content | Rights status and handling |
+| --- | --- | --- |
+| `architecture_diagram.png` | Project flow diagram incorporating FBref and software-vendor logos | Diagram authorship is not independently verified; logo rights are separate. Review any future republication. |
+| `images/Forwards.png` | Power BI player-statistics dashboard with Brentford FC crest | Underlying data and crest redistribution rights are unverified. Review before any republication. |
+| `images/Goalkeeping.png` | Power BI player-statistics dashboard with Brentford FC crest | Underlying data and crest redistribution rights are unverified. Review before any republication. |
+| `images/Intro.png` | Designed cover with Brentford FC crest and stadium/player imagery | Artwork and embedded imagery provenance is unverified. Review before any republication. |
+| `images/dwh_1.png` | Snowflake UI screenshot showing SQL and one player-statistics result | Interface and data rights are unverified. Review before any republication. |
+| `images/dwh_2.png` | Snowflake UI screenshot showing SQL and table/column results | Interface and data rights are unverified. Review before any republication. |
+
+No historical image was identified as a diagram free of third-party branding. No right to republish the underlying football datasets has been established. These historical records do not imply endorsement by the clubs, data providers, or software vendors they depict.
 
 ## Research references, not installed
 
